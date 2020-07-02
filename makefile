@@ -6,6 +6,7 @@ DEPS_PROG=perfect_number.c
 
 program:
 	$(CC) $(DEPS_PROG) $(CFLAGS)
+	$(info Usage: ./a.out <value_of_n>)
 
 clean:
 	rm -rf *.o *.out
